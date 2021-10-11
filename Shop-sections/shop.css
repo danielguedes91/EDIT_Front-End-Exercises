@@ -1,0 +1,102 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 2em auto;
+    align-items: center;
+}
+
+.logo>a>img {
+    width: 6rem;
+}
+
+.navbar>ul,
+.personal {
+    display: flex;
+}
+
+ul>li {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.basket-icon {
+    padding-left: 2em;
+
+}
+
+.main-img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img,
+.products-gallery {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.img-text {
+    width: 60%;
+    height: 40%;
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    position: absolute;
+
+
+
+}
+
+.products-gallery {
+    margin-top: 4em;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+.title h2 {
+    font-size: 2rem;
+    margin-top: .5em;
+}
+
+.main-img>img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+
+}
+
+.products-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
+.card {
+    width: 18vw;
+}
+
+.product-img>a>img {
+    width: 100%;
+
+}
