@@ -1,0 +1,67 @@
+.perspective-square {
+  border-radius: 20px;
+  transform: rotateX(45deg) rotate(45deg);
+  box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 16px;
+  animation-duration: 3s;
+  animation-name: animation1;
+}
+
+@keyframes animation1 {
+  from {
+    margin-top: -10%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+.z-squares {
+  transform: skewY(30deg);
+  box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 16px;
+}
+
+.rotate-square {
+  transform: rotate(45deg);
+}
+
+.hole:nth-child(odd) {
+  background-color: #cc33cc;
+}
+
+.hole:nth-child(4) {
+  background-color: #cc33cc;
+}
+
+.hole:nth-child(2) {
+  background-color: #cc33cc;
+}
+
+.hole:last-child {
+  background-color: #cc33cc;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.square-white {
+  background-color: white;
+}
+
+.square-black {
+  background-color: black;
+}
+
+.face {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+}
+
+.board {
+  transform: rotateX(45deg) rotate(45deg);
+  padding: 0.5em;
+  background-color: grey;
+}
