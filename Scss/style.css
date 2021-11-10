@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.container {
+  width: 650px;
+  margin: 2em auto;
+  padding: 4em;
+  border-radius: 2em;
+  background-color: #f2f5ff;
+  position: relative;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.intro {
+  margin-bottom: 2em;
+}
+
+.intro h1 {
+  font-size: 3em;
+  color: #2e3a59;
+}
+
+.intro .subtitle {
+  font-size: 1.5em;
+  margin-bottom: 3.25em;
+  color: rgba(45, 57, 88, 0.548);
+}
+
+.intro .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.intro .buttons .btn {
+  width: 156px;
+  height: 70px;
+  border: 0px solid white;
+  border-radius: 75px;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  color: #242736;
+  -webkit-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.intro .buttons .active-btn {
+  font-weight: 600;
+}
+
+.intro .buttons .secondary-btn {
+  background-color: #e5eafc;
+  font-weight: 400;
+}
+
+.intro .buttons .btn {
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 20px;
+  background: linear-gradient(177.23deg, #9c2cf3 -13.49%, #3a49f9 109.75%);
+  -webkit-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.16);
+  padding: 2em;
+  height: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 4em;
+}
+
+.card .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1em;
+}
+
+.card .card-header .card-icon {
+  width: 3.125em;
+  height: 3.125em;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+
+.card .card-header .card-name {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+}
+
+.card .card-title {
+  margin-bottom: 2em;
+}
+
+.card .card-title h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.card .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.card .card-content .card-date {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.card .card-content .card-date p {
+  font-weight: 300;
+  color: white;
+  font-size: 1.25em;
+}
+
+.card .card-content .card-message p {
+  font-size: 1.5em;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle h2 {
+  color: #2e3a59;
+  font-size: 2em;
+}
+
+.subtitle {
+  margin-bottom: 2.3125em;
+}
+
+.component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+  background-color: white;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 0px -7px 23px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px -7px 23px rgba(0, 0, 0, 0.02);
+}
+
+.component .component-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.component .component-content .calendar-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8em 1em;
+  background: linear-gradient(177.23deg, #9c2cf3 -13.49%, #3a49f9 109.75%);
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+
+.component .component-content .component-title {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.component .component-content .component-date p {
+  color: #aeaeb3;
+}
+
+.component .more-icon span {
+  width: 6px;
+  height: 6px;
+  background-color: #d8def3;
+  display: block;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.bottom-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4em;
+  padding: 0 0.5em;
+}
+
+.new-task-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  background: linear-gradient(177.23deg, #707CED -4.5%, #14458E 109.75%);
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
+
+.task-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.task-title a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.task-card-properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  color: white;
+  padding-top: 0;
+}
+
+.task-card-name, .task-card-date {
+  font-size: 1.25em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 2em;
+}
+
+.task-card-name-input, .task-card-date-input {
+  border-bottom: white solid 1px;
+  padding-bottom: 8px;
+  font-size: 2em;
+}
+
+.task-card-button {
+  margin: 2em auto;
+}
+
+.add-task-btn {
+  padding: 1em 4em;
+  background-color: #5E6CEA;
+  border-style: none;
+  color: white;
+  font-size: 1.25em;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
