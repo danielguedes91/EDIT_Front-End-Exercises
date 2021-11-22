@@ -1,0 +1,40 @@
+/* VIDEO */
+.video {
+  width: 100%;
+  border-radius: 0.5em;
+  background-color: #eeeeee;
+
+  position: relative;
+}
+
+.play_btn {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+
+.primary_btn {
+  text-align: center;
+  margin: 5em 0;
+}
+
+.primary_btn a:active {
+  background-color: #999999;
+}
+
+.primary_btn a {
+  padding: 1em 2em;
+  background-color: #333333;
+  color: #eeeeee;
+  border-radius: 2em;
+}
+
+.cards_section {
+  display: flex;
+  max-width: 1088px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 2em;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}

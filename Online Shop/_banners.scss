@@ -1,0 +1,32 @@
+/* BANNER */
+.medium_banner {
+  margin-bottom: 5em;
+}
+
+.medium_banner,
+.xl_banner {
+  position: relative;
+}
+
+.medium_banner img {
+  width: 100%;
+}
+.xl_banner img {
+  width: 100%;
+}
+
+.xl_banner {
+  margin-bottom: 5em;
+}
+
+.medium_banner .secondary_btn,
+.xl_banner .secondary_btn {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+
+.secondary_btn a,
+.primary_btn a {
+  display: inline-block;
+}
