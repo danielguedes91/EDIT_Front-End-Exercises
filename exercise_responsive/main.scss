@@ -1,0 +1,21 @@
+@import "reset";
+@import "variables";
+@import "grids";
+@import "header&menu";
+@import "content";
+@import "footer";
+@import "mediaqueries";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+html {
+  font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+

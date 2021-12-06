@@ -1,0 +1,102 @@
+// HEADER
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  background-color: $navbar-homepage;
+  position: fixed;
+  padding: 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  .logo {
+    color: $white-color;
+    font-weight: 700;
+    a {
+      text-decoration: none;
+      color: $white-color;
+    }
+  }
+}
+
+// BUTTON
+.menu-btn {
+  position: fixed;
+  top: 1.25em; // TODO Daniel => check
+  right: 2em; // TODO Daniel => check
+  display: inline-block;
+  cursor: pointer;
+  z-index: $menu-z-index + 1;
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 2em;
+    height: 2px;
+    background-color: $white-color;
+    margin: 10px 0;
+    transition: 0.4s;
+  }
+}
+
+// BUTTON ANIMATION
+/* Rotate first bar */
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 8px);
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+// Rotate last bar */
+.change .bar3 {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+// SIDEBAR
+.sidebar {
+  background-color: $grey-color;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  z-index: $menu-z-index;
+  // ----- not .expanded
+  transform: translateY(-100vh);
+  transition: 300ms ease-in-out;
+  // ----- not .expanded
+  // background-color: orange;
+  .sidebar_content {
+    margin-left: 2.5em;
+    margin-top: 10em;
+    display: inline-block;
+    flex-direction: column;
+    .logo {
+      position: absolute;
+      top: 2.4em;
+      left: 2em;
+      font-weight: 700;
+      h1{
+        font-size: 1rem;
+      }
+    }
+    a {
+      margin-bottom: 2.5rem;
+      display: block;
+      font-size: 2em;
+      text-decoration: none;
+      color: $white-color;
+      &:hover {
+        color: $red-color;
+      }
+    }
+  }
+}
+
+.expanded {
+  // ----- .expanded will override
+  transform: translateY(0px);
+  transition: 300ms ease-in-out;
+}
+

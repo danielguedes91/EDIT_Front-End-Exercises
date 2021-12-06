@@ -1,0 +1,41 @@
+@media (min-width: 750px) {
+  .container,
+  .project-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .project-image {
+    grid-column: span 2;
+    grid-row: span 3;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .project-description {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .more-projects {
+    grid-column-start: 5;
+    grid-column-end: -1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .contacts {
+    grid-column: span 3;
+  }
+  .maps {
+    grid-column: span 3;
+    height: 50%;
+  }
+}

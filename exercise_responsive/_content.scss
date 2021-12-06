@@ -1,0 +1,171 @@
+.container,
+.container_contacts {
+  position: relative;
+  background-color: black;
+  padding: 0 2em;
+}
+
+// PROJECTS PAGE
+.project-gallery {
+  a {
+    color: $white-color;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-right: 2rem;
+    &:hover {
+      color: $red-color;
+    }
+  }
+}
+
+.project-tag {
+  margin-top: 1em;
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+      transition: transform 0.4s;
+    }
+  }
+}
+
+.img-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  background-color: hsla(0, 0%, 0%, 0.452);
+  color: white;
+  line-height: 24px;
+  font-weight: 300;
+  opacity: 0;
+  padding: 2em;
+  &:hover {
+    opacity: 1;
+  }
+  cursor: pointer;
+}
+
+.prev-next {
+  margin-top: 1.5em;
+  margin-bottom: 7.5em;
+  display: flex;
+  justify-content: space-between;
+  color: $white-color;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+// PROJECT PAGE
+.breadcrumb {
+  margin-top: 1em;
+}
+
+.project-description {
+  color: white;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  margin-bottom: 7.5em;
+  .-title {
+    margin-bottom: 2em;
+  }
+}
+
+.more-projects p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.more-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.more-projects a {
+  padding-right: 0;
+}
+
+.more-projects {
+  margin-bottom: 7.5em;
+}
+
+.project-img {
+  height: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+// CONTACTS PAGE
+
+.contacts {
+  color: $white-color;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 21px;
+  margin-bottom: 1.75em;
+  height: 100vh;
+  margin-top: 1em;
+}
+
+.contacts p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 1.7em;
+  font-weight: 400;
+}
+.contacts p:nth-child(2) {
+  margin-bottom: 1.7em;
+}
+.maps {
+  margin-top: 1em;
+  margin-bottom: 7.5em;
+}
+.maps img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// HOMEPAGE
+.main-img {
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+.main-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.title {
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  z-index: 2;
+  p {
+    color: $white-color;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 32px;
+  }
+}
+.content {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
